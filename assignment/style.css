@@ -1,11 +1,44 @@
-/* Give your page a fun background color */
+/* check Give your page a fun background color */
 
-/* Make the header and footer a different color from the background */
+/* check Make the header and footer a different color from the background */
 
-/* Align the h1 containing your name in the center of the header*/
+/* check Align the h1 containing your name in the center of the header*/
 
 /* Make your p tag a different color and italic */
 
 /* Put a border around your image */
 
 /* Change the font-family of your list */
+
+
+/* figure out how to source an image from a folder */
+
+Body {
+    background-color: rgba(128, 189, 169, 0.74);
+    margin: 5% 10% 10%
+}
+
+header {
+    background-color: rgba(4, 98, 105, 0.75);
+    color: aliceblue;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-top: 2px solid aliceblue;
+    border-bottom: 2px solid aliceblue;
+
+}
+
+footer {
+    background-color: rgba(4, 98, 105, 0.9);
+    color: rgb(240, 248, 255);
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 2px;
+    border-top: 2px solid rgba(240, 248, 255, .95);
+    border-bottom: 2px solid rgba(240, 248, 255, .95);
+}
+.exp-img {
+    border-top-left-radius: 25px;
+    max-width: 100%;
+    height: auto;
+}
