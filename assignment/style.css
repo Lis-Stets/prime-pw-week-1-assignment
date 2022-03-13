@@ -4,41 +4,67 @@
 
 /* check Align the h1 containing your name in the center of the header*/
 
-/* Make your p tag a different color and italic */
+/* check Make your p tag a different color and italic */
 
-/* Put a border around your image */
+/* check Put a border around your image */
 
-/* Change the font-family of your list */
+/* check Change the font-family of your list */
 
-
-/* figure out how to source an image from a folder */
 
 Body {
     background-color: rgba(128, 189, 169, 0.74);
-    margin: 5% 10% 10%
+    margin: 5% 20% 20%;
+    border-top: 10px solid rgba(4, 98, 105, 1);
+    border-bottom: 10px solid rgba(4, 98, 105, 1);
+    border-left: 10px solid rgba(4, 98, 105, 1);
+    border-right: 10px solid rgba(4, 98, 105, 1);
 }
 
 header {
-    background-color: rgba(4, 98, 105, 0.75);
+    background-color: rgba(4, 98, 105, 0.80);
     color: aliceblue;
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     border-top: 2px solid aliceblue;
     border-bottom: 2px solid aliceblue;
+    border-left: 2px solid rgba(240, 248, 255, .95);
+    border-right: 2px solid rgba(240, 248, 255, .95);
+}
 
+.exp-image   {
+    margin-top: 125px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-top: 5px solid rgba(4, 98, 105, 1);
+    border-bottom: 5px solid rgba(4, 98, 105, 1);
+    border-left: 5px solid rgba(4, 98, 105, 1);
+    border-right: 5px solid rgba(4, 98, 105, 1);
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 0px;
+    float: Right;
+}
+
+.facts {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 150px;
+    margin-bottom: 200px;
+    margin-left: 10px;
+}
+
+p {
+    color: rgb(240, 248, 255);
+    font-style: italic;
 }
 
 footer {
-    background-color: rgba(4, 98, 105, 0.9);
-    color: rgb(240, 248, 255);
+    background-color: rgba(4, 98, 105, 0.80);
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding-top: 2px;
     border-top: 2px solid rgba(240, 248, 255, .95);
     border-bottom: 2px solid rgba(240, 248, 255, .95);
-}
-.exp-img {
-    border-top-left-radius: 25px;
-    max-width: 100%;
-    height: auto;
+    border-left: 2px solid rgba(240, 248, 255, .95);
+    border-right: 2px solid rgba(240, 248, 255, 0.95);
 }
