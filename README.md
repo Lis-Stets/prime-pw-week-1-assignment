@@ -157,4 +157,4 @@ You can find detailed instructions on how to do this in this week's video conten
 ## 7) Answer the Slack Discussion Question
 
 Make sure that you answer this week's Slack discussion question (found each week in the left sidebar of the Tier 1 site) in your cohort's Slack channel!
-
+ 
